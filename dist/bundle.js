@@ -897,7 +897,7 @@ function tab(){
 	var oDivs=document.querySelectorAll('.content>div');
 	for(var i=0;i<oLis.length;i++){
 		(function(i){
-			oLis[i].onclick=oLis[i].ontouchend=function(){
+			oLis[i].onclick=function(){
 				for(var j=0;j<oLis.length;j++){
 					oLis[j].className="";
 					oDivs[j].className="hide";
@@ -915,7 +915,7 @@ function showNav(){
 	// var aNav=document.getElementsByTagName('nav')[0];
 	var oUl=document.querySelector('.nav_content ul');
 	var flag=false;
-	oNav.onclick=oNav.ontouchend=function(e){
+	oNav.onclick=function(e){
 		if(oUl.style.visibility="hidden"&&!flag){
 			oUl.className="slide";
 			oUl.style.visibility="visible";
@@ -927,7 +927,7 @@ function showNav(){
 		flag=!flag;
 		e.stopPropagation();
 	}
-	document.onclick=document.ontouchend=function(e){
+	document.onclick=function(e){
 		// console.log(e.target.id);
 		if(e.target.id&&e.target.id=="nav"){
 			return;
