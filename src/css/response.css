@@ -102,7 +102,7 @@
 		z-index:99999;
 		background-color:#262727;
 	}
-	.nav_header span{
+	.nav_header #nav{
 		/*opacity:1;*/
 		visibility:visible;
 		cursor:pointer;

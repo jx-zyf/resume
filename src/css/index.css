@@ -21,7 +21,7 @@ nav{
 	text-indent:3em;
 	/* cursor:pointer; */
 }
-.nav_header span{
+.nav_header #nav{
 	display:block;
 	background-image:url('../images/nav.png');
 	width:32px;
@@ -31,7 +31,7 @@ nav{
 	top:32px;
 	visibility:hidden;
 }
-.nav_header>a{
+.nav_header>.resume{
 	line-height:100px;
 	color:#5eb78a;
 	font-size:35px;
