@@ -108,9 +108,9 @@
 		cursor:pointer;
 		transition:all 0.3s ease-out;
 	}
-	.nav_header span:hover{
+	/* .nav_header span:hover{
 		transform:scale(1.1);
-	}
+	} */
 	.nav_content>ul{
 		width:100%;height:auto;
 		position:absolute;
