@@ -1,0 +1,48 @@
+.Contact_header>h2{
+	margin-right:80px;
+}
+.Contact_main{
+	width:100%;
+	/*height:100%;*/
+}
+.Contact_main>div{
+	width:60%;
+	margin:auto;
+}
+.Contact_main p{
+	margin-bottom:50px;
+}
+.Contact_main .aboutMe{
+	/* font-style:italic; */
+	/*font-style:oblique;*/
+	font-size:14px;
+	line-height: 1.6em;
+	color:#666;
+	line-height:28px;
+}
+.Contact_main .contactMe{
+	color:#0B0000;
+	font-size:16px;
+	line-height:2em;
+}
+.Contact_main .footer{
+	margin-top:50px;
+	width:100%;
+	text-align: center;
+}
+.Contact_main .footer>li{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	margin:20px 10px;
+	cursor:pointer;
+}
+.Contact_main a:hover{
+	text-decoration: underline;
+}
+.Contact_main>div>div{
+	width:100%;
+	text-align: center;
+	font-size: 14px;
+}

@@ -1,0 +1,13 @@
+.skill_content>ol{
+    width:100%;
+}
+.skill_content>ol>li{
+    line-height:2em;
+    list-style: circle;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.skill_content>ol>li>span{
+    color:skyblue;
+    font-weight: bolder;
+} 
