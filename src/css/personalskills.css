@@ -3,7 +3,7 @@
 }
 .skill_content>ol>li{
     line-height:2em;
-    list-style: circle;
+    list-style: square;
     font-size: 16px;
     margin-bottom: 15px;
 }

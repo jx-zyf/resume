@@ -36,10 +36,10 @@ module.exports = {
     //     inline:true
     // },
     // plugins:[
-    //     new webpack.optimize.UglifyJsPlugin({
-    //         compress:{warnings:false}
-    //     })
-    //     new HtmlWebpackPlugin({title:'resume'}),
-    //     new webpack.HotModuleReplacementPlugin()
+        // new webpack.optimize.UglifyJsPlugin({
+        //     compress:{warnings:false}
+        // })
+        // new HtmlWebpackPlugin({title:'resume'}),
+        // new webpack.HotModuleReplacementPlugin()
     // ]
 }
