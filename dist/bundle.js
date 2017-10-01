@@ -792,7 +792,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".skill_content>ol{\r\n    width:100%;\r\n}\r\n.skill_content>ol>li{\r\n    line-height:2em;\r\n    list-style: square;\r\n    font-size: 16px;\r\n    margin-bottom: 15px;\r\n}\r\n.skill_content>ol>li>span{\r\n    color:skyblue;\r\n    font-weight: bolder;\r\n} ", ""]);
+exports.push([module.i, ".skill_content>ul{\r\n    width:100%;\r\n}\r\n.skill_content>ul>li{\r\n    line-height:2em;\r\n    list-style: square;\r\n    font-size: 16px;\r\n    margin-bottom: 15px;\r\n}", ""]);
 
 // exports
 
